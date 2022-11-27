@@ -1,0 +1,51 @@
+*{
+ 
+}
+
+body {
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    background-color: white;
+}
+.wall {
+    margin: 0 auto;
+    width: 600px;
+    height: 100%;
+}
+img {
+    max-width: 90%;
+    margin: 20px;
+    height:300px;
+}
+
+#left {
+    background-color: blue;
+    height: 400px;
+    width: calc(50%);
+    float: left;
+}
+
+#right {
+    background-color: green;
+    height: 400px;
+    width: calc(50%);
+    float: left;
+}
+
+
+.button {
+    display: inline;
+    color: white;
+    background-color: red;
+    width: 200px;
+    border: 1px solid black;
+    margin-right: -4px;
+    padding: 7px 12px;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
